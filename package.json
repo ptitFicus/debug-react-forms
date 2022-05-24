@@ -1,0 +1,19 @@
+{
+  "name": "rf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel serve index.jsx index.css -p 3005 --no-hmr --no-cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@maif/react-forms": "^1.0.55",
+    "parcel": "^2.5.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
